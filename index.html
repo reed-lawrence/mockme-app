@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">MockMe.js</span>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row mb-3">
+      <div class="col-lg-6 mx-auto">
+        <label>Text to convert</label>
+        <input type="text" class="form-control" placeholder="you wouldn't download a car" id="text-input">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-6 mx-auto">
+        <label>Output</label>
+        <div class="input-group">
+          <div class="form-control" id="output">YoU WoUlDn't dOwNlOaD A CaR</div>
+          <div class="input-group-append">
+            <button class="btn btn-secondary" onclick="copy()">Copy</button>
+          </div>
+        </div>
+        <div class="alert alert-success mt-2" style="display: none" id="copy-alert">
+          Copied to clipboard!
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5">
+    <p class="text-muted" style="text-align: center">View source on <a href="https://github.com/reed-lawrence/mockme-app"
+        target="_blank">Github <i class="fab fa-github"></i></a></p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
